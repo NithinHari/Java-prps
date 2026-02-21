@@ -13,5 +13,4 @@ public class FibnonacciWithoutRecursion {
 			n2=n3;
 		}
 	}
-
 }
