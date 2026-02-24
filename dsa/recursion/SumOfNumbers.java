@@ -1,11 +1,18 @@
 package com.dsa.recursion;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class SumOfNumbers {
 
     public static void main(String[] args){
         sumNum(10,0);
         System.out.println(sumNum2(3));
         System.out.println(factorial(4));
+
+        //stream method
+        List<Integer> intNum = Arrays.asList(1,2,3,4,5,6,7,8);
+        System.out.println(intNum.stream().reduce(Integer::sum).get());
     }
 
     public static void sumNum(int i, int sum){
