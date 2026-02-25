@@ -3,24 +3,24 @@ package com.interview.JavaDev;
 import java.util.Scanner;
 
 public class Swap2Numbers {
-	public static void main(String args[]) {
+    public static void main(String[] args) {
 //		Scanner sc= new Scanner(System.in);
 //		int x = sc.nextInt();
 //		int y = sc.nextInt();
-		
+
 //		Method-1
 //		int x=23, y=25;
 //		x = x+y;
 //		y=x-y;
 //		x=x-y;
-		int x=23, y=25, t;
-		t=x;
-		x=y;
-		y=t;
-		
-		
-		System.out.println(x+" "+y);
-	}
+        int x = 23, y = 25, t;
+        t = x;
+        x = y;
+        y = t;
+
+
+        System.out.println(x + " " + y);
+    }
 
 }
 /* 
